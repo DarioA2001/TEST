@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.header,
+.footer {
+    background-color: #2D93AD;
+    text-align: center;
+     padding: 36px;
+     border: 10px solid black;
+     
+     
+}
+
+.page-title {
+    color: #011627;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.article-container {
+    background-color: #30343F;
+  
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.article-content {
+    background-color: #30343F;
+    text-align: center;
+     font-size: 1.5rem;
+    
+
+}
+
+
+
+.article {
+    background-color: #2D93AD;
+    color: #DEE5E5;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    flex: 1 1 200px;
+    
+    
+}
+
+
+body {
+    margin: 0;
+}
+

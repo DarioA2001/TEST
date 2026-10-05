@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.header{
+    background-color:cyan;
+    padding: 36px;
+}
+
+.page-title{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+}
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+
+.experiment{
+    display: flex;
+    margin: 8px 0;
+    background-color: #d3d3d3;
+    gap: 16px;
+}
+
+.property{
+    flex: 0 0 25%;
+    background-color: #f0f0f0;
+}
+
+.display .effect{
+    display: flex;
+}
+
+.row-reverse .effect{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.justify-end .effect{
+    justify-content: flex-end;
+}
+
+.effect{
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.justify-evenly .effect{
+    justify-content: space-evenly;
+}
+
+.justify-around .effect{
+    justify-content: space-around;
+}
+
+.grow .blue{
+    flex-grow: 1;
+    
+}
+
+.grow .yellow{
+    flex-grow: 1;
+    
+}
+
